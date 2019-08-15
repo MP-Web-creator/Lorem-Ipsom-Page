@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--link to the css file-->
+        <link rel="stylesheet" type="text/css" href="Css/CssLorem.css"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+
+    <body onload="realTime()">
+        <header>
+            <div class="topTitle-left">
+              <div class="dropdownImageZorro">
+                  <img src="Images/zorro.jpg"  alt="zorro" width="50px" height="50px"> 
+                <div class="dropdown-content-Image-Zorro">
+                    <img src="Images/zorro.jpg"  alt="zorro" width="300px" height="300px"> 
+                </div>
+              </div>
+              <h1 class="titleLogo" >Zozor</h1>
+              <p class="parLogo">Travel diaries</p>
+            </div>
+            <ul>
+              <li><a href="#home">HOME</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Blog">BLOG</a></li>
+              <li><a href="#news">RESUME</a></li>
+              <li class="dropdown1">
+                <a href="javascript:void(0)" class="dropbtn">CONTACT ME</a>
+                <div class="dropdown1-content">
+                 <a href="https://www.myname.org.il/אופיר-אינדיג/Ofir-Indig/">Ofir Indig</a>
+                 <a href="mailto:development@art-up.co.il?Subject=I%20know%20what%20you%20did%20last%20summer" target="_top">Mail Me</a>
+                 <a href="#">Map</a>
+                </div>
+              </li>
+            </ul>  
+        </header>
+<!--*******************************************************************************************-->           
+
+        <section>
+            <img src="Images/laav.jpg" class="imagemain" alt="laav">
+            <button class="BtnImage" onclick="visibleArticle()">See articles</button>
+            <p class="textImageMain">Reflection on my holiday in the United States...</p>
+            <article id="articleMain" class="articleNote">
+              <h2>I`M A GREAT TRAVELLER</h2>
+              <span class="noteText">  
+                <h1><b>M-109 HOWITZER</b></h1>
+                <img src="Images/Cannon_fire_-_M109_self-propelled_howitzer.jpg" class="imageNote" alt="cannonFire">
+                <p>The M109 is an American 155 mm turreted self-propelled howitzer, first introduced in the early 1960s to replace the M44. It has been upgraded a number of times, most recently to the M109A7. The M109 family is the most common Western indirect-fire support weapon of maneuver brigades of armored and mechanized infantry divisions.</p>
+                <P>The M109 has a crew of four: the section chief/commander, the driver, the gunner, and the ammunition handler/loader. The chief or gunner aims the cannon left or right (deflection) and up and down (quadrant).</P>
+              </span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus non enim praesent elementum facilisis. Turpis massa tincidunt dui ut ornare lectus sit amet est. Laoreet sit amet cursus sit amet dictum sit amet justo. Quis risus sed vulputate odio. Et malesuada fames ac turpis. At tellus at urna condimentum mattis pellentesque id. Et leo duis ut diam quam nulla porttitor massa id. Massa sed elementum tempus egestas sed sed risus pretium quam. Tellus integer feugiat scelerisque varius morbi enim. Ultrices tincidunt arcu non sodales neque. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Duis at consectetur lorem donec massa sapien faucibus et molestie. Nunc sed id semper risus in. Ut morbi tincidunt augue interdum velit euismod in pellentesque.</p>
+              <p>Amet tellus cras adipiscing enim eu. Purus semper eget duis at tellus. Amet est placerat in egestas erat. Pretium nibh ipsum consequat nisl vel pretium lectus quam id. Molestie nunc non blandit massa enim nec. In hendrerit gravida rutrum quisque non tellus orci. Urna nunc id cursus metus aliquam eleifend mi in. Velit dignissim sodales ut eu sem integer vitae justo. In est ante in nibh. Imperdiet nulla malesuada pellentesque elit eget. Ullamcorper eget nulla facilisi etiam. Mauris nunc congue nisi vitae suscipit tellus mauris. Ipsum faucibus vitae aliquet nec ullamcorper sit. Eget magna fermentum iaculis eu non diam phasellus. Sit amet porttitor eget dolor morbi non arcu. At augue eget arcu dictum varius duis. Luctus venenatis lectus magna fringilla urna.</p>
+              <p>Diam vulputate ut pharetra sit amet aliquam id diam. Neque sodales ut etiam sit. Aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus. Tincidunt dui ut ornare lectus sit amet est. Urna id volutpat lacus laoreet non curabitur gravida arcu. Rhoncus dolor purus non enim. At tellus at urna condimentum mattis pellentesque. Nulla at volutpat diam ut venenatis tellus in metus vulputate. Massa placerat duis ultricies lacus. Sit amet commodo nulla facilisi nullam vehicula ipsum a arcu. Semper auctor neque vitae tempus. Morbi leo urna molestie at elementum eu facilisis sed. Id eu nisl nunc mi. Fermentum dui faucibus in ornare quam viverra. Condimentum lacinia quis vel eros donec ac odio tempor orci. Vitae congue eu consequat ac felis donec et odio. Sed adipiscing diam donec adipiscing tristique. Tristique sollicitudin nibh sit amet commodo nulla.</p>
+            </article>
+        </section>
+<!--*******************************************************************************************-->        
+        <footer>
+          <!--the first column on the footer-->
+          <div class="column">
+            <h2>MY LAST TWEET</h2>
+            <p>Hee-haw!</p>
+            <div id="txt"></div>
+          </div>
+          <!--the second column on the footer-->
+          <div class="column">
+            <h2>MY PICTURES</h2>
+            <!--the images on second column-->
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 6</div>
+                  <img src="Images/maradona.jpg" style="width:100%">
+                  <div class="text">Maradona the king</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 6</div>
+                  <img src="Images/pele.jpg" style="width:100%">
+                  <div class="text">Pele</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 6</div>
+                  <img src="Images/pelermo.jpg" style="width:100%">
+                  <div class="text">Palermo</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="Images/ronaldinho.jpg" style="width:100%">
+                    <div class="text">ronaldinho</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="Images/ronaldo.jpg" style="width:100%">
+                    <div class="text">ronaldo</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="Images/mesi.jpg" style="width:100%">
+                    <div class="text">Mesi</div>
+                </div>
+                </div>
+                <br>
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                  <span class="dot" onclick="currentSlide(4)"></span> 
+                  <span class="dot" onclick="currentSlide(5)"></span> 
+                  <span class="dot" onclick="currentSlide(6)"></span> 
+                </div>   
+            </div>
+          <!--the third column on the footer-->
+          <div class="column">
+            <h2>MY FRIENDS</h2>
+            <p><a href="https://en.wikipedia.org/wiki/Hassan_Nasrallah">Hassan Nasrallah</a></p>
+            <p><a href="https://en.wikipedia.org/wiki/Ismail_Haniyeh">Ismail Haniyeh</a></p>
+            <p><a href="https://en.wikipedia.org/wiki/Islamic_State_of_Iraq_and_the_Levant">Isis</a></p>
+            <p><a href="https://en.wikipedia.org/wiki/Al-Qaeda">Al-Qaeda</a></p>
+            <p><a href="https://en.wikipedia.org/wiki/United_Nations">United Nations</a></p>
+          </div>
+        </footer>
+        
+        <script src="JavaScript/JSLorem.JS"></script>
+    </body>
+
+</html>
